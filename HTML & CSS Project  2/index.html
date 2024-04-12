@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            /* justify-content: space-evenly; */
+        }
+
+        nav {
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+            padding: 5px;
+            align-items: center;
+        }
+
+        nav div .logo {
+            height: 43px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            display: flex;
+            padding: 15px;
+            align-items: center;
+        }
+
+        .contact-btn {
+            right: 45px;
+            position: absolute;
+        }
+
+        .contact-btn {
+            padding: 8px 25px;
+            border-radius: 5px;
+            background-color: #5955b3;
+            border: none;
+            color: #fff;
+        }
+
+        /* section {
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            max-width: 1200px;
+            display: flex;
+        } */
+        section {
+            display: flex;
+            position: relative;
+        }
+        section .right {
+            width: 60%;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            background-repeat: no-repeat;
+            position: absolute;
+            right: 10px;
+        }
+
+        section .left {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 200px;
+            padding-left: 10px;
+            display: inline;
+            color: #3c2f60;
+            font-size: 30px;
+        }
+        section .left p {
+            color: #828282;
+            font-size: 16px;
+        }
+        section .left span {
+            color: #5955b3;
+
+        }
+
+        section .left .services {
+            padding: 8px 25px;
+            align-items: center;
+            border-radius: 5px;
+            margin-top: 30px;
+            background-color: #5955b3;
+            border: none;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div><img class="logo" src="./asssets/Logo.png"></div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+        </nav>
+        <button class="contact-btn">Contact Us</button>
+    </div>
+    <section>
+        <div class="right">
+            <img src="asssets/Header Illustration.png" alt="">
+        </div>
+        <div class="left">
+            <h1>We Help You <br><span>Crush</span>Your <br>Completition</h1>
+            <p>Build trust to connect your brand to billions of users and grow your revenue <br>through SEO.</p>
+            <button class="services">See our Services</button>
+        </div>
+    </section>
+</body>
+</html>
