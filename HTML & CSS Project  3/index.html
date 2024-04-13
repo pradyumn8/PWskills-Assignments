@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        nav {
+            height: 12vh;
+            padding: 5px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+        }
+
+        nav .logo {
+            width: 100px;
+        }
+
+        nav .slash {
+            width: 1px;
+            height: 50px;
+            background-color: #fff;
+            margin: 0 63px;
+        }
+
+        nav ul {
+            display: flex;
+
+        }
+
+        nav ul li {
+            display: flex;
+            padding: 15px;
+        }
+
+        .token {
+            color: #fff;
+            padding: 5px 25px;
+            background-color: #ba0cc5;
+            position: absolute;
+            right: 50px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .main {
+            background-image: url('./assets/bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+              height: 91.5vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #fff;
+            font-size: 45px;
+            display: flex;
+        }
+        .main p {
+            font-size: 25px;
+        }
+        .req {
+            color: #fff;
+            padding: 15px 20px;
+            font-size: 16px;
+            background-color: #ba0cc5;
+            margin-top: 3rem;
+            border: none;
+            font-weight: 600;
+            right: 50px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div><img src="./assets/white-logo.png" class="logo"></div>
+            <div class="slash"></div>
+            <ul>
+                <li>Apps</li>
+                <li>DAO</li>
+                <li>Technology</li>
+                <li>Token</li>
+                <li>Contributors</li>
+            </ul>
+            <button class="token">Buy 1 Token</button>
+        </nav>
+    </div>
+    <section class="main">
+        <h1>Lets build a better <br>tomorrow, together.</h1>
+        <p>Buy 1 Token. Join DAO. Change the world</p>
+        <button class="req">Request Early Access</button>
+    </section>
+
+</body>
+
+</html>
