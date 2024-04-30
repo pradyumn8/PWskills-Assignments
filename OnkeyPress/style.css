@@ -1,0 +1,14 @@
+*{
+  align-items: center;
+  justify-content: center;
+  display: flex ;
+  flex-direction: column;
+}
+
+#display {
+      color: red;
+  }
+  
+  #input-box {
+    font-size: 25px;
+  }
